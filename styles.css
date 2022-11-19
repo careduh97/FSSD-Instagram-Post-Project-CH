@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.post {
+    background-color: white;
+    width: 450px;
+    height: 650px;
+    font-family: "Nunito";
+    border-radius: 5px;
+}
+
+.postheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.ph-left {
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    line-height: 18px; 
+}
+
+[class*='fa-html5'] {
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+
+.ph-right {
+    font-size: 30px;
+    padding-right: 15px;
+}
+
+.postfooter{
+    padding: 5px 15px 0px 15px; 
+}
+
+.pf-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.pf-text {
+    text-align: justify;
+    font-size: 15px;
+    word-spacing: 1px;
+}
